@@ -86,3 +86,27 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-- ajouter un membre
+
+-- Requête pour sélectionner un membre spécifique en fonction de son ID.
+SELECT * FROM membre WHERE id_membre = 1;
+
+-- Requête pour insérer une nouvelle réservation d'activité.
+INSERT INTO reservation (idmembre, idactivite) 
+VALUES (2, 1);
+
+-- Requête pour mettre à jour la capacité d'une activité après une réservation.
+UPDATE activite SET CAPACITE = CAPACITE - 1 WHERE id_activite = 1;
+
+-- Requête pour supprimer un membre spécifique en fonction de son ID.
+DELETE FROM membre WHERE id_membre = 3;
+
+-- Requête pour obtenir les membres ayant des réservations et leurs statistiques.
+SELECT 
+    membre.*, 
+    COUNT(DISTINCT reservation.id_reservation) AS numberReservations 
+FROM 
+    membre
+LEFT JOIN reservation ON membre.id_membre = reservation.idmembre
+GROUP BY 
+    membre.id_membre;
