@@ -1,19 +1,33 @@
 <?php 
 
-$servername = "localhost";
-$username = "username";
-$password = "password";
+// $servername = "localhost";
+// $username = "username";
+// $password = "password";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
+// // Create connection
+// $conn = new mysqli($servername, $username, $password);
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+// // Check connection
+// if ($conn->connect_error) {
+//   die("Connection failed: " . $conn->connect_error);
+// }
+// echo "Connected successfully";
+
+define("HOSTNAME", "localhost");
+define("USERNAME", "root");
+define("PASSWORD","");
+define("DATABASE","GYM");
+
+$connection = mysqli_connect(HOSTNAME,USERNAME,PASSWORD,DATABASE);
+
+if(!$connection){
+  die("Connection failed");
+
+
 }
-echo "Connected successfully";
 
-
-
+else{
+  echo "yes";
+}
 
 ?>
