@@ -155,7 +155,7 @@ This page provides the user interface for interacting with gym data, including m
 
 The Gym Management Project efficiently manages members, activities, and reservations through a MySQL database and PHP scripts. Key features include data insertion, deletion, and dynamic display via web forms.
 
-Author: Your Name ✍️License: MIT 📄
+Author: majdifox ✍️License: MIT 📄
 
 How to Run: 🚀
 
