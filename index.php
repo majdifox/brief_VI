@@ -260,6 +260,15 @@ Be A member
           <div class="col-md-7 heading-section text-center ftco-animate">
           	<span class="subheading mb-3">Testimonies</span>
             <div>
+				<table>
+					<tr class='bg-yellow-500'> 
+						
+					<td>id membre</td>
+					<td>nom</td>
+					<td>prenom</td>
+					<td>email</td>
+					<td>telephone</td>
+					</tr>
               <?php
               // $query = "select * from `activite`";
               $query = "select * from `membre`";
@@ -292,6 +301,7 @@ Be A member
               }
 
               ?>
+			  </table>
             </div>
           </div>
         </div>
