@@ -228,6 +228,12 @@ Be A member
 	 }
 	  ?>
 
+	<?php 
+ 		if(isset($_GET[`delete_msg`])){
+ 	 echo "<h6>".$_GET[`delete_msg`]."</h6>"; 
+	 }
+	  ?>
+
     <footer class="footer">
 			<div class="container">
 				<div class="row justify-content-center">
