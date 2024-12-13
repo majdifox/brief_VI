@@ -171,7 +171,7 @@ Be A member
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading mb-3">Testimonies</span>
+          	<span class="subheading mb-3">Members</span>
             <div>
 				<table>
 					<tr class='bg-yellow-500'> 
