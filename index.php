@@ -203,7 +203,7 @@ Be A member
                     <td><?php echo $row['EMAIL']; ?></td>
                     <td><?php echo $row['TELEPHONE']; ?></td>
 					<td><a href="#?id=<?php echo $row['id_membre']; ?>" class="btn btn-success">Update</a></td>
-					<td><a href="#?id=<?php echo $row['id_membre']; ?>" class="btn btn-danger">Delete</a></td>
+					<td><a href="delete_member.php?id=<?php echo $row['id_membre']; ?>" class="btn btn-danger">Delete</a></td>
                   </tr>
 
                   <?php
