@@ -27,7 +27,7 @@ if(!$connection){
 }
 
 else{
-  echo "yes";
+ 
 }
 
 ?>

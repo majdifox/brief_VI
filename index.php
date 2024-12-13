@@ -177,16 +177,16 @@
 							<div class="text-center">
 								<h3 class="mb-4">Be A member</h3>
 							</div>
-							<form action="#" class="appointment-form">
+							<form action="insert_data.php" class="appointment-form" method="post">
 								<div class="row">
 									<div class="col-md-12 col-lg-6 col-xl-4">
 										<div class="form-group">
-				    					<input type="text" class="form-control" placeholder="First Name">
+				    					<input type="text" class="form-control" name="f_name" placeholder="First Name">
 				    				</div>
 									</div>
 									<div class="col-md-12 col-lg-6 col-xl-4">
 										<div class="form-group">
-				    					<input type="text" class="form-control" placeholder="Last Name">
+				    					<input type="text" class="form-control" name="l_name" placeholder="Last Name">
 				    				</div>
 									</div>
 									<div class="col-md-12 col-lg-6 col-xl-4">
@@ -207,7 +207,7 @@
 									<div class="form-group">
 										<div class="input-wrap">
 											<div class="icon"><span class="fa fa-envelope"></span></div>
-											<input type="email" class="form-control" placeholder="Email" required>
+											<input type="email" class="form-control" name="email" placeholder="Email" required>
 										</div>
 									</div>
 								</div>
@@ -215,18 +215,32 @@
 								<div class="form-group">
 									<div class="input-wrap">
 										<div class="icon"><span class="fa fa-phone"></span></div>
-										<input type="tel" class="form-control" placeholder="Telephone" required>
+										<input type="tel" class="form-control" name="telephone" placeholder="Telephone" required>
 									</div>
 								</div>
 							</div>
 									<div class="col-md-12 col-lg-6 col-xl-4">
 										<div class="form-group">
-				              <input type="submit" value="Join US" class="btn btn-white py-2 px-4">
+				              <input type="submit" value="Join US"  class="btn btn-white py-2 px-4">
 				            </div>
 									</div>
 								</div>
 		    			</form>
-		    	  </div>
+		    
+WELCOME TO HEALTHCARE
+Hello! Health Care is a natural way of improving your health
+A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+
+A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+
+Cythia Hunter
+Personal Dietitian
+Healthcare Services
+A small river named Duden flows by their place and supplies
+
+SEE SERVICES
+Be A member
+	  </div>
 					</div>
 					<div class="col-md-3 d-flex align-items-stretch">
 						<div class="consultation w-100 text-center px-4 px-md-5">
@@ -312,7 +326,11 @@
       </div>
     </section> -->
 
-
+	<?php 
+ 		if(isset($_GET[`insert_msg`])){
+ 	 echo "<h6>".$_GET[`insert_msg`]."</h6>"; 
+	 }
+	  ?>
 
     <footer class="footer">
 			<div class="container">
