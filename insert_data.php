@@ -1,6 +1,5 @@
 <?php
 
-
 include("dbcon.php");
 
     $f_name = $_POST['f_name'];
