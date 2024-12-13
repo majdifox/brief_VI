@@ -183,9 +183,7 @@ Be A member
 					<td>telephone</td>
 					</tr>
               <?php
-              // $query = "select * from `activite`";
               $query = "select * from `membre`";
-              // $query = "select * from `reservation`";
 
               $result = mysqli_query($connection, $query);
 
@@ -194,12 +192,10 @@ Be A member
 
               }
               else{
-                // print_r($result);
 
                 while($row = mysqli_fetch_assoc($result)){
 
                   ?>
-                  <!-- <h4>Hello</h4> -->
                   <tr>
                     <td><?php echo $row['id_membre']; ?></td>
                     <td><?php echo $row['NOM']; ?></td>
