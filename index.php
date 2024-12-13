@@ -25,25 +25,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-		<div class="wrap">
-			<div class="container">
-				<div class="row justify-content-between">
-						<div class="col d-flex align-items-center">
-							<p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="#">+00 1234 567</a> or <span class="mailus">email us:</span> <a href="#">emailsample@email.com</a></p>
-						</div>
-						<div class="col d-flex justify-content-end">
-							<div class="social-media">
-				    		<p class="mb-0 d-flex">
-				    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-				    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-				    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-				    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
-				    		</p>
-			        </div>
-						</div>
-				</div>
-			</div>
-		</div>
+		
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	    	<a class="navbar-brand" href="index.html">Health<span>coach<i class="fa fa-leaf"></i></span></a>
@@ -66,7 +48,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <div class="hero-wrap js-fullheight">
+    <!-- <div class="hero-wrap js-fullheight">
 	    <div class="home-slider owl-carousel js-fullheight">
 	      <div class="slider-item js-fullheight" style="background-image:url(images/bg_1.jpg);">
 	      	<div class="overlay"></div>
@@ -113,9 +95,9 @@
 	        </div>
 	      </div>
 	    </div>
-	  </div>
+	  </div> -->
 		
-    <section class="ftco-section ftco-services">
+    <!-- <section class="ftco-section ftco-services">
     	<div class="container">
     		<div class="row">
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
@@ -150,12 +132,12 @@
           </div>
         </div>
     	</div>
-    </section>
+    </section> -->
 
     <section class="ftco-section ftco-no-pt ftco-no-pb bg-light">
 			<div class="container">
 				<div class="row no-gutters">
-					<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/coach-1.jpg);">
+					<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/image_1.jpg);">
 					</div>
 					<div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
 	          <div class="heading-section mb-5">
@@ -193,7 +175,7 @@
 					<div class="col-md-6 d-flex align-items-stretch">
 						<div class="consultation consul w-100 px-4 px-md-5">
 							<div class="text-center">
-								<h3 class="mb-4">Free Consultation</h3>
+								<h3 class="mb-4">Be A member</h3>
 							</div>
 							<form action="#" class="appointment-form">
 								<div class="row">
@@ -213,33 +195,33 @@
 		          					<div class="select-wrap">
 		                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
 		                      <select name="" id="" class="form-control">
-		                      	<option value="">Services</option>
-		                        <option value="">Services 1</option>
-		                        <option value="">Services 2</option>
+		                      	<option value="">Activities</option>
+		                        <option value="">Activity 1</option>
+		                        <option value="">Activity 2</option>
 		                      </select>
 		                    </div>
 				              </div>
 				    				</div>
 									</div>
 									<div class="col-md-12 col-lg-6 col-xl-4">
-										<div class="form-group">
-				    					<div class="input-wrap">
-				            		<div class="icon"><span class="ion-md-calendar"></span></div>
-				            		<input type="text" class="form-control appointment_date" placeholder="Date">
-			            		</div>
-				    				</div>
+									<div class="form-group">
+										<div class="input-wrap">
+											<div class="icon"><span class="fa fa-envelope"></span></div>
+											<input type="email" class="form-control" placeholder="Email" required>
+										</div>
 									</div>
+								</div>
+								<div class="col-md-12 col-lg-6 col-xl-4">
+								<div class="form-group">
+									<div class="input-wrap">
+										<div class="icon"><span class="fa fa-phone"></span></div>
+										<input type="tel" class="form-control" placeholder="Telephone" required>
+									</div>
+								</div>
+							</div>
 									<div class="col-md-12 col-lg-6 col-xl-4">
 										<div class="form-group">
-				    					<div class="input-wrap">
-				            		<div class="icon"><span class="ion-ios-clock"></span></div>
-				            		<input type="text" class="form-control appointment_time" placeholder="Time">
-			            		</div>
-				    				</div>
-									</div>
-									<div class="col-md-12 col-lg-6 col-xl-4">
-										<div class="form-group">
-				              <input type="submit" value="Appointment" class="btn btn-white py-2 px-4">
+				              <input type="submit" value="Join US" class="btn btn-white py-2 px-4">
 				            </div>
 									</div>
 								</div>
