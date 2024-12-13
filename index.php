@@ -46,94 +46,7 @@
 	      </div>
 	    </div>
 	  </nav>
-    <!-- END nav -->
-
-    <!-- <div class="hero-wrap js-fullheight">
-	    <div class="home-slider owl-carousel js-fullheight">
-	      <div class="slider-item js-fullheight" style="background-image:url(images/bg_1.jpg);">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row no-gutters slider-text align-items-center">
-		          <div class="col-md-7 ftco-animate">
-		          	<div class="text w-100">
-		          		<h2>Welcome to Health Coach</h2>
-			            <h1 class="mb-4">Get in shape faster, live your happy life</h1>
-			            <p><a href="#" class="btn btn-primary">Learn more</a> <a href="#" class="btn btn-white">Contact us</a></p>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
-	      </div>
-
-	      <div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row no-gutters slider-text align-items-center">
-		          <div class="col-md-7 ftco-animate">
-		          	<div class="text w-100">
-		          		<h2>A Fresh approach to healthy life</h2>
-			            <h1 class="mb-4 color-white">Unlock your potential with good nutrition</h1>
-			            <p><a href="#" class="btn btn-primary">Learn more</a> <a href="#" class="btn btn-white">Contact us</a></p>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
-	      </div>
-
-	      <div class="slider-item js-fullheight" style="background-image:url(images/bg_3.jpg);">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row no-gutters slider-text align-items-center justify-content-end">
-		          <div class="col-md-6 ftco-animate">
-		          	<div class="text w-100">
-		          		<h2>Welcome Health Coach</h2>
-			            <h1 class="mb-4">You can transform health through habit change</h1>
-			            <p><a href="#" class="btn btn-primary">Learn more</a> <a href="#" class="btn btn-white">Contact us</a></p>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
-	      </div>
-	    </div>
-	  </div> -->
-		
-    <!-- <section class="ftco-section ftco-services">
-    	<div class="container">
-    		<div class="row">
-          <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-            <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-1.jpg);"></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Exercise Program</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary btn-outline-primary">Read more</a></p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-            <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-2.jpg);"></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Nutrition Plans</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary btn-outline-primary">Read more</a></p>
-              </div>
-            </div>    
-          </div>
-          <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-            <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-3.jpg);"></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Diet Program</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary btn-outline-primary">Read more</a></p>
-              </div>
-            </div>      
-          </div>
-        </div>
-    	</div>
-    </section> -->
-
+   
     <section class="ftco-section ftco-no-pt ftco-no-pb bg-light">
 			<div class="container">
 				<div class="row no-gutters">
@@ -311,30 +224,6 @@ Be A member
     </section>
 
 		
-
-    <!-- <section class="ftco-section ftco-no-pb ftco-no-pt">
-      <div class="container">
-      	<div class="row">
-	      	<div class="col-md-12">
-	      		<div class="bg-secondary w-100 rounded p-4">
-	        		<div class="row">
-			          <div class="col-md-7 d-flex align-items-center">
-			            <h2 class="mb-3 mb-sm-0" style="color:black; font-size: 18px;">Subcribe for our weekly tips</h2>
-			          </div>
-			          <div class="col-md-5 d-flex align-items-center">
-			            <form action="#" class="subscribe-form">
-			              <div class="form-group d-flex">
-			                <input type="text" class="form-control" placeholder="Enter email address">
-			                <input type="submit" value="Subscribe" class="submit px-3">
-			              </div>
-			            </form>
-			          </div>
-		          </div>
-			      </div>
-			    </div>
-			  </div>
-      </div>
-    </section> -->
 
 	<?php 
  		if(isset($_GET[`insert_msg`])){
